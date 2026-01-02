@@ -1,0 +1,85 @@
+* {
+    font-weight: 300;
+    font-family: "Inter";
+}
+
+.portfolio-card {
+    width: 461px;
+}
+
+.slide-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    margin-bottom: 10%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(0, 0, 0));
+}
+
+.light-blue {
+    color: rgb(0, 255, 255);
+    font-weight: 700;
+}
+
+.contact {
+    width: 665px;
+    height: 364px;
+    border: 1px solid rgb(169, 169, 169);
+    box-shadow: 5px 5px 10px rgb(169, 169, 169);
+}
+
+.middle {
+    margin: auto;
+}
+
+footer {
+    border-top: 1px solid rgb(255, 255, 255);
+    height: 250px;
+}
+
+.margin-x {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.large {
+    font-size: 50px;
+}
+
+.website-card {
+    margin-bottom: 50px;
+    width: 800px;
+    height: 258px;
+}
+
+.intro-para {
+    width: 500px;
+}
+
+.portfolio-text {
+    width: 402px;
+}
+
+@media screen and (max-width: 768px) {
+    .d-flex {
+        flex-wrap: wrap;
+    }
+
+    .contact {
+        width: 75%;
+    }
+
+    .website-card {
+        width: 295px;
+        height: 600px;
+    }
+
+    .portfolio-text {
+        width: 90%;
+    }
+
+    .intro-para {
+        width: 400px;
+    }
+}

@@ -66,6 +66,10 @@ footer {
         flex-wrap: wrap;
     }
 
+    nav {
+        width: 100%;
+    }
+
     .contact {
         width: 75%;
     }
@@ -80,6 +84,6 @@ footer {
     }
 
     .intro-para {
-        width: 400px;
+        width: 300px;
     }
 }
